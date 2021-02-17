@@ -4,6 +4,8 @@ A hass.io addon for a software defined radio tuned to listen for 433MHz RF trans
 This hass.io addon is based on Chris Kacerguis' project here: https://github.com/chriskacerguis/honeywell2mqtt,
 which is in turn based on Marco Verleun's rtl2mqtt image here: https://github.com/roflmao/rtl2mqtt
 
+Updated to fix the usb_open error -1 after homeassistant supervisor updates
+
 ## Usage
 
 1) Install the addon.
