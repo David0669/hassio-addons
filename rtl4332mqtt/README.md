@@ -8,7 +8,7 @@ Updated to fix the usb_open error -1 after homeassistant supervisor updates
 
 ## Usage
 
-1) Install the addon.
+1) Uninstall previous versions then install the addon.
 
 2) Use addon configuration to configure:
 - mqtt_host
@@ -17,7 +17,7 @@ Updated to fix the usb_open error -1 after homeassistant supervisor updates
 - mqtt_topic
 - protocol (see https://github.com/merbanan/rtl_433 for more details inc protocol IDs)
 
-3) Copy rtl2mqtt.sh to your hass.io config dir in a subdir called rtl4332mqtt.
+3) If needed copy rtl2mqtt.sh to your hass.io config dir in a subdir called rtl4332mqtt.
 i.e.
 .../config/rtl4332mqtt/rtl2mqtt.sh
 This allows you to edit the start script if you need to make any changes
@@ -27,7 +27,7 @@ NOTE that some people have reported issues using samba to copy the script. For s
 Also there is now an example rtl2mqtt script with MQTT sensor autodiscovery. This is very hard coded to a single sensor currentcost, but might be an interesting example for others to repurpose...
 
 
-4) Start the addon
+4) Start the addon and check logs for any problems.
 
 
 ## MQTT Data
