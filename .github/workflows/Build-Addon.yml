@@ -27,5 +27,5 @@ jobs:
         args: |
           --test \
           --all \
-          --target addon-folder \
-          --docker-hub user-name-or-space-name
+          --target rtl4332mqtt \
+          --docker-hub david0669
