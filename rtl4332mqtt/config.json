@@ -16,11 +16,12 @@
     "i386"
   ],
   "options":
+  "image": "david0669/rtl4332mqtt"
   {
     "mqtt_host": "hassio.local",
     "mqtt_user": "",
     "mqtt_password": "",
-    "mqtt_topic": "homeassistant/sensor/currentcost",
+    "mqtt_topic": "rtl_433/events",
     "protocol": 100,
     "frequency": 319500000,
     "gain": 60,
