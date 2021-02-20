@@ -27,5 +27,5 @@ jobs:
         args: |
           --test \
           --all \
-          --target hassio-addons \
+          --target rtl4332mqtt \
           --docker-hub david0669
