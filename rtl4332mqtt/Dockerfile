@@ -48,4 +48,6 @@ ENV MQTT_USER="guest"
 ENV MQTT_PASS="guest"
 ENV MQTT_TOPIC="homeassistant/sensor/rtl433"
 
+LABEL io.hass.version="VERSION" io.hass.type="addon" io.hass.arch="armhf|armv7|aarch64|i386|amd64"
+
 CMD cd / && cp /config/rtl4332mqtt/rtl2mqtt.sh /rtl2mqtt.sh && chmod +x /rtl2mqtt.sh && /rtl2mqtt.sh
