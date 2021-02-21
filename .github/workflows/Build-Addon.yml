@@ -28,4 +28,3 @@ jobs:
           --test \
           --all \
           --target rtl4332mqtt \
-          --docker-hub david0669/rtl4332mqtt/{arch}
