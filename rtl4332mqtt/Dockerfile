@@ -12,7 +12,7 @@ ENV LANG C.UTF-8
 
 MAINTAINER David Pope
 
-LABEL Description="This image is used to start a script that will monitor for RF events on 433Mhz (configurable) and send the data to an MQTT server"
+LABEL Description="This image is used to start a script that will monitor for RF events on 433Mhz (configurable) and send the data to an MQTT server" io.hass.version="VERSION" io.hass.type="addon" io.hass.arch="armhf|armv7|aarch64|i386|amd64"
 
 #
 # First install software packages needed to compile rtl_433 and to publish MQTT events
@@ -48,6 +48,5 @@ ENV MQTT_USER="guest"
 ENV MQTT_PASS="guest"
 ENV MQTT_TOPIC="homeassistant/sensor/rtl433"
 
-LABEL io.hass.version="VERSION" io.hass.type="addon" io.hass.arch="armhf|armv7|aarch64|i386|amd64"
 
 CMD cd / && cp /config/rtl4332mqtt/rtl2mqtt.sh /rtl2mqtt.sh && chmod +x /rtl2mqtt.sh && /rtl2mqtt.sh
