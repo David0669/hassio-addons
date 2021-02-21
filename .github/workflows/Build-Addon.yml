@@ -29,3 +29,4 @@ jobs:
           --all \
           --target rtl4332mqtt \
           --docker-hub david0669/rtl4332mqtt
+          --version dev
