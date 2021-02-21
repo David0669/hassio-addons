@@ -27,6 +27,6 @@ jobs:
         args: |
           --test \
           --armv7 \
-          --target /rtl4332mqtt \
+          --target rtl4332mqtt \
           --cache-tag testing \
           --docker-hub david0669 \
