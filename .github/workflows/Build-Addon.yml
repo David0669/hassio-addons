@@ -24,4 +24,8 @@ jobs:
     - name: Test build
       uses: home-assistant/builder@master
       with:
-        args: --test --armv7 --target rtl4332mqtt --docker-hub david0669/rtl4332mqtt
+        args: |
+          --test \
+          --armv7 \
+          --target rtl4332mqtt \
+          --docker-hub david0669/rtl4332mqtt
