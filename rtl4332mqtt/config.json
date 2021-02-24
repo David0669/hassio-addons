@@ -38,4 +38,5 @@
     "gain": "int",
     "frequency_offset": "int"
    }
+  "image": "david0669/{arch}-rtl4332mqtt"
 }
