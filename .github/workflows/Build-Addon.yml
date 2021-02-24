@@ -30,7 +30,7 @@ jobs:
       uses: home-assistant/builder@master
       with:
         args: |
-          --armv7 \
+          --all \
           --target rtl4332mqtt \
           -d david0669 \
           -i rtl4332mqtt
