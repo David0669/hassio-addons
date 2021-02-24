@@ -32,4 +32,5 @@ jobs:
         args: |
           --armv7 \
           --target rtl4332mqtt \
-          -d rtl4332mqtt
+          -d rtl4332mqtt \
+          -i rtl4332mqtt
