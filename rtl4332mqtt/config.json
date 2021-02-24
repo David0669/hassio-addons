@@ -18,7 +18,7 @@
   ],
   "options":
   {
-    "mqtt_host": "hassio.local",
+    "mqtt_host": "homeassistant.local",
     "mqtt_user": "",
     "mqtt_password": "",
     "mqtt_topic": "homeassistant/sensor/currentcost",
