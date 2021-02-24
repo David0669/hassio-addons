@@ -32,4 +32,4 @@ jobs:
         args: |
           --armv7 \
           --target rtl4332mqtt \
-          --docker-hub david0669 \
+          --docker-hub david0669/rtl4332mqtt \
