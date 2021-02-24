@@ -33,4 +33,3 @@ jobs:
           --armv7 \
           --target rtl4332mqtt \
           --docker-hub david0669 \
-          --release-tag test
