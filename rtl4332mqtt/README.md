@@ -6,7 +6,7 @@ which is in turn based on Marco Verleun's rtl2mqtt image here: https://github.co
 
 Updated to fix the usb_open error -1 after homeassistant supervisor updates
 
-Move addon to pre-build docker images
+Move addon to pre-built docker images
 
 ## Usage
 
