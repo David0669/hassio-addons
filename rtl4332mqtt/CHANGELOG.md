@@ -11,4 +11,4 @@ Version 0.2.3
   - add ability for older hardware to run this add-on
 
 Version 0.2.4
-  - change to pre-build images for all hardware types
+  - change to pre-build images with latest rtl_433 app for all hardware types
