@@ -33,4 +33,4 @@ jobs:
           --all \
           --target rtl4332mqtt \
           -d david0669 \
-          -i rtl4332mqtt
+          -i {arch}-rtl4332mqtt
