@@ -12,3 +12,6 @@ Version 0.2.3
 
 Version 0.2.4
   - change to pre-build images with latest rtl_433 app for all hardware types
+ 
+Version 0.2.5
+  - update rtl433 build
